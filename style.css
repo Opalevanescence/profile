@@ -4,6 +4,7 @@ body {
   color: rgb(5, 5, 5);
   line-height: 16px;
   text-align: center;
+  margin: 0px;
   }
 
 h1 {
@@ -42,6 +43,11 @@ i {
   height: 30px;
 }
 
+input {
+  padding: 5px;
+  width: 200px;
+}
+
 .container {
   margin: 8px;
   padding: 24px;
@@ -55,8 +61,16 @@ i {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+.card-extra-margin {
+  margin-top: 80px;
+}
+
 .img-circle {
   border-radius: 50%;
+}
+
+.shaddow {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .text-left {
@@ -75,6 +89,68 @@ i {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+
+.button-dark-pink {
+  margin: 5px;
+  padding: 16px;
+  background-color: rgb(130, 11, 62);
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #61341f;
+  color: rgb(250, 250, 250);
+  position: relative;
+  float: center;
+  display: inline-block;
+}
+
+.button-dark-pink:hover {
+  color:rgb(250, 250, 250);
+  background-color: rgb(170, 18, 82);
+}
+
+.button-small {
+  padding: 10px;
+  font-size: 12px;
+  box-shadow: 0px 2px 5px #61341f;
+  background-color: rgb(216, 114, 140);
+  text-align: right
+}
+
+.divs-parallel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form > form{
+  position: relative;
+  left: 48px;
+}
+
+.contact-text > p {
+  width: 50%;
+  text-align: left
+}
+
+#header {
+  margin: 0px;
+  margin-top: -8px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 0px;
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+
+#footer {
+  margin: 0px;
+  margin-bottom: -8px;
+  padding: 16px;
+  width: 100%;
+  border-radius: 0px;
+  font-size: 12px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
